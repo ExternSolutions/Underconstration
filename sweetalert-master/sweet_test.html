@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+<script type="text/javascript">
+function f(){
+swal({
+  title: "Are you sure?",
+  text: "You will not be able to recover this imaginary file!",
+  type: "warning",
+  showCancelButton: true,
+  confirmButtonColor: "#DD6B55",
+  confirmButtonText: "Yes, delete it!",
+  closeOnConfirm: false
+},
+function(){
+  swal("Good Job!","Your imaginary file has been deleted.", "success");
+});
+}
+</script>
+</head>
+<body onload="f()">
+</body>
+</html>
